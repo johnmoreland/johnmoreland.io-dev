@@ -8,6 +8,17 @@
 	font-weight:200;
 }
 
+.section-header{
+	opacity: .9;
+	margin:auto;
+	/*display:inline-block;*/
+	padding:15px 25px;
+	margin-bottom:10px;
+	border-top-style:solid;
+	border-top-color:black;
+	border-top-width:5px;
+}
+
 .debug{
 	background-color:red;
 }
@@ -15,8 +26,13 @@
 /********************
 		NAVBAR
 ********************/
-.top-bar, .top-bar ul, .top-bar a{
-	background-color: black;
+.top-bar{
+	background:transparent;
+	color:#FFF;
+}
+
+.top-bar ul, .top-bar a{
+	background:transparent;
 	color:#FFF;
 }
 
@@ -29,7 +45,7 @@ a:active{
 }
 
 .top-bar h3{
-	padding-top: 5px;
+	padding-top: 15px;
 	font-weight:lighter;
 	margin-bottom: -10px;
 }
@@ -40,6 +56,14 @@ a:active{
 	display:inline-block;
 }
 
+.horizontal-rule-nav{
+	width:100%;
+	display:inline-block;
+	height:5px;
+	background-color:#FFF;
+}
+
+
 /********************
 		INTRO
 ********************/
@@ -47,6 +71,14 @@ a:active{
 #intro{
 	color:#FFF;
 	font-weight:lighter;
+	height:auto;
+	min-height: 250px;
+	background:url("../img/intro/lakewabansunsethd.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-top:-130px;
+	padding-top:125px;
+	padding-bottom: 50px;
 }
 
 #pano{
@@ -55,7 +87,6 @@ a:active{
 	width:100%;
 	height:auto;
 	min-height: 250px;
-
 }
 
 .intro-content{
@@ -63,9 +94,11 @@ a:active{
 }
 
 #profile{
-	width:66%;
+	height:66v;
+	min-height:200px;
+	max-height:400px;
+	width:auto;
 	min-width:200px;
-	height:auto;
 	border-style:solid;
 	border-radius:50%;
 	border-color:#FFF;
@@ -79,6 +112,9 @@ a:active{
 	border-color:#FFF;
 	border-width:5px;
 	/*max-width:90%;*/
+	height:66v;
+	min-height:200px;
+	max-height:400px;
 	margin:auto;
 	margin-top: 2.5em;
 	margin-right: -5%;
@@ -94,8 +130,22 @@ a:active{
 		ABOUT
 ********************/
 
+#about{
+	width:100%;
+	padding-top:20px;
+}
 
+.about-subhead-text{
+	margin-bottom: -5px;
+}
 
+.horizontal-rule{
+	width:80%;
+	display:inline-block;
+	height:5px;
+	background-color:#e74c3c;
+	margin-top: -20%;
+}
 
 
 
