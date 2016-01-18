@@ -1,16 +1,45 @@
 /********************
 		GENERAL
 ********************/
+.wrapper{
+	width:80%;
+	max-width:1200px;
+	margin:0 auto;
+	font-weight:200;
+}
 
+a:hover{
+	color:#1fffff;
+}
 
+a:active{
+	color:#FFF;
+}
 
 
 
 /********************
 		NAVBAR
 ********************/
-.top-bar{
-	padding-top: 10px;
+/*.top-bar{
+	padding-top:5px;
+}*/
+
+.top-bar, .top-bar ul{
+	background-color: black;
+	color:#FFF;
+}
+
+.top-bar h2{
+	padding-top: 5px;
+	font-weight:lighter;
+	margin-bottom: -10px;
+}
+
+.nav-right{
+	padding-top:10px;
+	font-size: 1.2em;
+	display:inline-block;
 }
 
 
