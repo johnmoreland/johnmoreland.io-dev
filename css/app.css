@@ -3,34 +3,32 @@
 ********************/
 .wrapper{
 	width:80%;
-	max-width:1200px;
+	max-width:1680px;
 	margin:0 auto;
 	font-weight:200;
 }
 
-a:hover{
-	color:#1fffff;
+.debug{
+	background-color:red;
 }
-
-a:active{
-	color:#FFF;
-}
-
-
 
 /********************
 		NAVBAR
 ********************/
-/*.top-bar{
-	padding-top:5px;
-}*/
-
-.top-bar, .top-bar ul{
+.top-bar, .top-bar ul, .top-bar a{
 	background-color: black;
 	color:#FFF;
 }
 
-.top-bar h2{
+a:hover{
+	color:#bdc3c7;
+}
+
+a:active{
+	color:#bdc3c7;
+}
+
+.top-bar h3{
 	padding-top: 5px;
 	font-weight:lighter;
 	margin-bottom: -10px;
@@ -42,16 +40,54 @@ a:active{
 	display:inline-block;
 }
 
-
-
-
-
 /********************
 		INTRO
 ********************/
 
+#intro{
+	color:#FFF;
+	font-weight:lighter;
+}
 
+#pano{
+	position:absolute;
+	z-index: -1;
+	width:100%;
+	height:auto;
+	min-height: 250px;
 
+}
+
+.intro-content{
+	padding-top:2em;
+}
+
+#profile{
+	width:66%;
+	min-width:200px;
+	height:auto;
+	border-style:solid;
+	border-radius:50%;
+	border-color:#FFF;
+	border-width:.35em;
+}
+
+.intro-text{
+	padding:10px 20px 2px 20px;
+	border-style:solid;
+	border-radius:25px;
+	border-color:#FFF;
+	border-width:5px;
+	/*max-width:90%;*/
+	margin:auto;
+	margin-top: 2.5em;
+	margin-right: -5%;
+	/*background-color: #000;*/	
+}
+
+.intro-text h4{
+		font-size: 1.4em;
+}
 
 
 /********************
