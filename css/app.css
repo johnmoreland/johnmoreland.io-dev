@@ -143,7 +143,11 @@ a:active{
 	width:80%;
 	display:inline-block;
 	height:5px;
+<<<<<<< HEAD
 	background-color:#ff8351;
+=======
+	background-color:#e74c3c;
+>>>>>>> origin/master
 	margin-top: -20%;
 }
 
