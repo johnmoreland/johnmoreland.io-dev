@@ -12,11 +12,11 @@
 	opacity: .9;
 	margin:auto;
 	/*display:inline-block;*/
-	padding:15px 25px;
 	margin-bottom:10px;
-	border-top-style:solid;
+/*	border-top-style:solid;
 	border-top-color:black;
-	border-top-width:5px;
+	border-top-width:5px;*/
+	font-style: bold;
 }
 
 .debug{
@@ -111,13 +111,13 @@ a:active{
 	border-radius:25px;
 	border-color:#FFF;
 	border-width:5px;
-	/*max-width:90%;*/
 	height:66v;
 	min-height:200px;
 	max-height:400px;
 	margin:auto;
 	margin-top: 2.5em;
 	margin-right: -5%;
+
 	/*background-color: #000;*/	
 }
 
@@ -132,7 +132,7 @@ a:active{
 
 #about{
 	width:100%;
-	padding-top:20px;
+	padding-top:5px;
 }
 
 .about-subhead-text{
@@ -143,11 +143,7 @@ a:active{
 	width:80%;
 	display:inline-block;
 	height:5px;
-<<<<<<< HEAD
 	background-color:#ff8351;
-=======
-	background-color:#e74c3c;
->>>>>>> origin/master
 	margin-top: -20%;
 }
 
@@ -157,7 +153,18 @@ a:active{
 		PORTFOLIO
 ********************/
 
+.portfolio-content{
 
+}
+
+.portfolio-img{
+	width:90%;
+	height:auto;
+	border-style:solid;
+	border-radius:50%;
+	border-color:#FFF;
+	border-width:.35em;
+}
 
 
 
