@@ -8,7 +8,34 @@
 	font-weight:200;
 }
 
-.section-header{
+.section-header-on-white{
+	opacity: .9;
+	display:inline-block;
+	text-align:center;
+	border-style:solid;
+	border-color:#ff8351;
+	border-width:5px;
+	padding:7px 20px;
+	padding-bottom:0px;
+	margin-bottom: 50px;
+	border-radius:40px;
+	font-style: bold;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ffc4aa+100 */
+	background: #ffb76b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #DB4C2C 0%, #ffc4aa 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #DB4C2C 0%,#ffc4aa 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #DB4C2C 0%,#ffc4aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffc4aa',GradientType=0 ); /* IE6-9 */
+
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
+	/*color:#DB4C2C;*/
+	/*color:#fff;*/
+}
+
+.section-header-on-grad{
 	opacity: .9;
 	/*text-align:center;*/
 	/*margin:auto;*/
@@ -16,15 +43,17 @@
 	text-align:center;
 	margin-bottom:15px;
 	border-style:solid;
-	border-color:#DB4C2C;
-	border-width:3px;
+	border-color:#fff;
+	border-width:5px;
 	padding:7px 20px;
 	padding-bottom:0px;
-	border-radius:20px;
+	margin-bottom: 50px;
+	border-radius:40px;
 	font-style: bold;
 	/*color:#DB4C2C;*/
-	color:black;
+	color:#fff;
 }
+
 
 .debug{
 	background-color:red;
@@ -58,7 +87,7 @@ a:active{
 }
 
 .nav-right{
-	padding-top:10px;
+	padding-top:20px;
 	font-size: 1.2em;
 	display:inline-block;
 }
@@ -83,9 +112,9 @@ a:active{
 	background:url("../img/intro/LakeWabanSunsetHD.png");
 	background-repeat: no-repeat;
 	background-position: bottom;
-	margin-top:-130px;
+	margin-top:-140px;
 	padding-top:125px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 }
 
 #pano{
@@ -120,16 +149,6 @@ a:active{
 	border-width:5px;
 	display:inline-block;
 	margin-top:20%;
-
-
-/*	height:66v;
-	min-height:200px;
-	max-height:400px;
-	margin:auto;
-	margin-top: 2.5em;
-	margin-right: -5%;*/
-
-	/*background-color: #000;*/	
 }
 
 .intro-text h4{
@@ -143,8 +162,8 @@ a:active{
 
 #about{
 	width:100%;
-	padding-top:5px;
-	margin-bottom:25px;
+	padding-top:65px;
+	margin-bottom:75px;
 }
 
 .about-subhead-text{
@@ -161,7 +180,7 @@ a:active{
 
 .about-img-container{
 	width:90%;
-	padding-top:15px;
+	padding-top:5px;
 	padding-bottom:5px;
 }
 
@@ -169,10 +188,27 @@ a:active{
 	border-radius:0;
 }
 
-
 /********************
 		PORTFOLIO
 ********************/
+
+#portfolio{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ffc4aa+100 */
+	background: #ffb76b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffb76b 0%, #ffc4aa 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffc4aa 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffb76b 0%,#ffc4aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffc4aa',GradientType=0 ); /* IE6-9 */
+	
+	padding-top:75px;
+	padding-bottom:50px;
+
+	-webkit-box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
+	box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
+
+	border-radius:20px;
+}
 
 .portfolio-content{
 
@@ -184,16 +220,21 @@ a:active{
 	border-style:solid;
 	border-radius:50%;
 	border-color:#FFF;
-	border-width:.35em;
+	border-width:.05em;
 }
 
-
-
+.project-titles{
+	padding-top:5px;
+	color:#FFF;
+	margin-bottom: 2em;
+}
 
 /********************
 		SKILLS
 ********************/
-
+#skills{
+	padding-top:75px;
+}
 
 
 
