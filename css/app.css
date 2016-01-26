@@ -221,7 +221,7 @@ a:active{
 }
 
 .portfolio-content{
-	overflow: hidden;
+	/*overflow: hidden;*/
 	position: relative;
 }
 
@@ -232,7 +232,8 @@ a:active{
 	border-style:solid;
 	border-color:#FFF;
 	border-width:3px;
-	z-index: 5;
+
+	transition: ease-in-out, .1s;
 
 	filter: blur(1px);
 	-webkit-filter: blur(1px);
@@ -247,10 +248,12 @@ a:active{
 	-moz-filter: blur(0px);
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
+	transform:scale(1.1,1.1);
+	/*border-radius:20%;*/
 }
 
 .project-titles{
-	padding-top:5px;
+	padding-top:10px;
 	color:#FFF;
 	margin-bottom: 2em;
 }
@@ -260,16 +263,79 @@ a:active{
 ********************/
 #skills{
 	padding-top:75px;
+	padding-bottom:75px;
 
 	-webkit-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
 	-moz-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
 	box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
 }
 
+.skills-content{
+	padding-top:25px;
+	text-align:left;
+}
 
+.skills-subsection{
+	padding-top:5px;
+	padding-left:20px;
+}
 
+.skills-subhead-text{
+	margin-bottom:-10px;
+	color:#424242;
+}
+
+.skill-names{
+	margin:0 auto;
+}
+
+.resume-button{
+	margin-top:150px;
+	color:#424242;
+	/*color: rgb(233, 141, 112);*/
+	border-color:#424242;
+	border-width:5px;
+	border-style: solid;
+	text-align: center;
+
+	opacity: .9;
+	display:inline-block;
+	padding:6px 20px 0px 20px;
+	margin-bottom: 10px;
+	border-radius:35px;
+	font-style: thin;
+
+	transition:ease-in-out .1s;
+}
+
+.resume-button:hover{
+	color:rgb(233, 141, 112);
+	border-color: rgb(233, 141, 112);
+}
 
 
 /********************
 		FOOTER
 ********************/
+
+.footer{
+	background-color: rgb(233, 141, 112);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.social-ico{
+	width:5%;
+	min-width:75px;
+	height:auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.social-ico:hover{
+	transform:scale(1.05,1.05);
+}
+
+
+
+

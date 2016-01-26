@@ -1,0 +1,26 @@
+Manufacturing:
+Milling
+3d printing
+laser cutting
+cnc router
+/lathe
+/shopbot
+
+Cad:
+Solidworks
+Inventor
+Fusion
+
+Code:
+html
+css
+arduino
+robotC
+/js
+/python
+/java
+/c
+
+Additional:
+adobe suite
+soldering
