@@ -17,7 +17,7 @@
 	border-width:2px;*/
 	padding:12px 30px;
 	padding-bottom:5px;
-	margin-bottom: 50px;
+	margin-bottom: 1em;
 	border-radius:40px;
 	font-style: bold;
 
@@ -51,10 +51,10 @@
 	color:#fff;
 }
 
-
 .debug{
 	background-color:red;
 }
+
 
 /********************
 		NAVBAR
@@ -67,6 +67,12 @@
 .top-bar ul, .top-bar a{
 	background:transparent;
 	color:#FFF;
+}
+
+*{
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth; // Added in from answer from Felix
+    overflow-x: scroll;
 }
 
 a:hover{
@@ -160,19 +166,27 @@ a:active{
 #about{
 	width:100%;
 	padding-top:65px;
-	margin-bottom:75px;
+	padding-bottom:75px;
 }
 
 .about-subhead-text{
+	padding-top:1em;
 	margin-bottom: -5px;
+	color:#424242;
 }
 
 .horizontal-rule{
 	width:80%;
 	display:inline-block;
 	height:5px;
-	background-color:#ff8351;
+	/*background-color:#ff8351*/;
 	margin-top: -20%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd8b2+0,ffded1+100 */
+	background: #ffd8b2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffd8b2 0%, #ffded1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffd8b2 0%,#ffded1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffd8b2 0%,#ffded1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8b2', endColorstr='#ffded1',GradientType=0 ); /* IE6-9 */
 }
 
 .about-img-container{
@@ -201,22 +215,38 @@ a:active{
 	padding-top:75px;
 	padding-bottom:50px;
 
-	-webkit-box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
-	-moz-box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
-	box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.41);
+	-webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
+	box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
 }
 
 .portfolio-content{
-
+	overflow: hidden;
+	position: relative;
 }
 
 .portfolio-img{
 	width:90%;
 	height:auto;
-	border-style:solid;
 	border-radius:50%;
+	border-style:solid;
 	border-color:#FFF;
-	border-width:.05em;
+	border-width:3px;
+	z-index: 5;
+
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+}
+
+.portfolio-img:hover{
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-o-filter: blur(0px);
+	-ms-filter: blur(0px);
 }
 
 .project-titles{
@@ -230,6 +260,10 @@ a:active{
 ********************/
 #skills{
 	padding-top:75px;
+
+	-webkit-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
+	box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
 }
 
 
