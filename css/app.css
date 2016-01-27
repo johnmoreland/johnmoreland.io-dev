@@ -55,63 +55,24 @@
 	background-color:red;
 }
 
-/*Right pointing*/
-.triangle-right {
-	/*float:left;*/
-    margin:0.5%;
-    width: 0;
-    height: 0;
-    padding-top: 9.6%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    overflow: hidden;
-    display:inline-block;
-    transition:ease-in-out .2s;
-}
-.triangle-right:after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top:-500px;
-    margin-left: -500px;
-    
-    border-top: 500px solid transparent;
-    border-bottom: 500px solid transparent;
-    border-left: 500px solid rgb(233, 141, 112);
-}
-
-.triangle-right:active{
-    transform:rotate(90deg) translateX(.3em);
-}
-.triangle-right:focuss{
-    transform:rotate(90deg) translateX(.3em);
-}
 
 /*Down pointing*/
 .triangle-down {
+	width: 0;
+	height: 0;
+	border-left: .5em solid transparent;
+	border-right: .5em solid transparent;
+	border-top: .75em solid rgb(233, 141, 112);
+	border-bottom:0;
 	float:left;
-    margin:0.5%;
-    width: 0;
-    height: 0;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    overflow: hidden;
-    transform:rotate(90deg);
+	margin-left: -1em;
+	/*margin-top:.25em;*/
+	margin-top: -.6em;
 }
-.triangle-down:after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left:-500px;
-    margin-top:-500px;
-    
-    border-left: 500px solid transparent;
-    border-right: 500px solid transparent;
-    border-top: 500px solid rgb(233, 141, 112);
-}
+
+
+
+
 
 /********************
 		NAVBAR
@@ -325,16 +286,45 @@ a:active{
 	padding-top:5px;
 	padding-left:20px;
 	margin-bottom:20px;
+	margin-right:10%;
 }
+
+
+.skills-subsection-small{
+	padding-top:5px;
+	padding-left:20px;
+	margin-bottom:20px;
+	margin-right:10%;
+	max-width:90%;
+	margin-top:20px;
+	height:2.6em;
+
+	border-bottom: solid #424242 3px;
+	overflow:hidden;
+}
+
+.skills-subsection-small:hover{
+	height:auto;
+	color:rgb(233, 141, 112);
+}
+
 
 .skills-subhead-text{
 	margin-bottom:-10px;
 	color:#424242;
 	font-weight: bold;
+	font-size: 1.7rem;
+	text-align: left;
+	margin-left:.5em;
+}
+
+.skills-subhead-text-small{
+	font-size:1.4em;
 }
 
 .skill-names{
-	margin:0 auto;
+	margin:10px auto;
+	margin-left:1em;
 }
 
 .resume-button{
