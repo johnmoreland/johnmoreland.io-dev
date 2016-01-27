@@ -278,11 +278,13 @@ a:active{
 .skills-subsection{
 	padding-top:5px;
 	padding-left:20px;
+	margin-bottom:20px;
 }
 
 .skills-subhead-text{
 	margin-bottom:-10px;
 	color:#424242;
+	font-weight: bold;
 }
 
 .skill-names{
@@ -290,7 +292,7 @@ a:active{
 }
 
 .resume-button{
-	margin-top:150px;
+	margin-top:100px;
 	color:#424242;
 	/*color: rgb(233, 141, 112);*/
 	border-color:#424242;
@@ -303,9 +305,13 @@ a:active{
 	padding:6px 20px 0px 20px;
 	margin-bottom: 10px;
 	border-radius:35px;
-	font-style: thin;
+	font-weight: bold;
 
 	transition:ease-in-out .1s;
+}
+
+.resume-text{
+	font-weight: bold;
 }
 
 .resume-button:hover{
@@ -320,8 +326,8 @@ a:active{
 
 .footer{
 	background-color: rgb(233, 141, 112);
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .social-ico{
@@ -335,7 +341,3 @@ a:active{
 .social-ico:hover{
 	transform:scale(1.05,1.05);
 }
-
-
-
-
