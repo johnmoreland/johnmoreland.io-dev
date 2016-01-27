@@ -297,15 +297,16 @@ a:active{
 	margin-right:10%;
 	max-width:90%;
 	margin-top:20px;
-	height:2.6em;
+	max-height:2.6em;
 
-	border-bottom: solid #424242 3px;
+	border-bottom: solid rgb(233, 141, 112) 3px;
 	overflow:hidden;
+
+	transition: max-height ease-in-out .75s;
 }
 
 .skills-subsection-small:hover{
-	height:auto;
-	color:rgb(233, 141, 112);
+	max-height:500px;
 }
 
 
@@ -323,7 +324,7 @@ a:active{
 }
 
 .skill-names{
-	margin:10px auto;
+	margin:25px auto;
 	margin-left:1em;
 }
 
