@@ -68,6 +68,10 @@
 	margin-left: -1em;
 	/*margin-top:.25em;*/
 	margin-top: -.6em;
+
+	transform:rotate(-90deg);
+
+	transition: ease-in-out .5s;
 }
 
 
@@ -308,6 +312,11 @@ a:active{
 .skills-subsection-small:hover{
 	max-height:500px;
 }
+
+.skills-subsection-small:hover > .triangle-down{
+	transform:rotate(0deg);
+}
+	
 
 
 .skills-subhead-text{

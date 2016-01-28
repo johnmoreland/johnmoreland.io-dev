@@ -1,0 +1,107 @@
+/*colors:
+peach: rgb(233, 141, 112)
+light-peach: #bdc3c7
+dark gray: #424242*/
+
+
+
+/********************
+		GENERAL
+********************/
+.wrapper{
+	width:80%;
+	max-width:1680px;
+	margin:0 auto;
+	font-weight:200;
+}
+
+
+
+.debug{
+	background-color:red;
+}
+
+/********************
+		NAVBAR
+********************/
+
+.top-bar{
+	background-color: white;
+	padding-top:15px;
+}
+
+.name{
+	margin-top:10px;
+	font-size:1.5em;
+}
+
+.home-ico{
+	float:right;
+	width:5%;
+	min-width:75px;
+	height:auto;
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:10px;
+}
+
+
+.horizontal-rule-nav{
+	width:100%;
+	display:inline-block;
+	height:5px;
+	background-color:rgb(233, 141, 112);
+}
+
+
+/********************
+		BODY
+********************/
+
+.img-circle{
+	min-width:100px;
+	height:auto;
+	border-style:solid;
+	border-radius:50%;
+	border-color:#FFF;
+	border-width:.35em;
+}
+
+.img-round-corners{
+	min-width:100px;
+	height:auto;
+	border-style:solid;
+	border-radius:40px;
+	border-color:#FFF;
+	border-width:.35em;
+}
+
+
+
+
+
+
+
+
+/********************
+		FOOTER
+********************/
+
+
+.footer{
+	background-color: rgb(233, 141, 112);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.social-ico{
+	width:5%;
+	min-width:75px;
+	height:auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.social-ico:hover{
+	transform:scale(1.05,1.05);
+}
