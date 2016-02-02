@@ -17,6 +17,10 @@ dot: rgb(77,183,252)*/
 	font-weight:200;
 }
 
+/*.row{
+	width:100%;
+}*/
+
 .section-header-themed{
 	opacity: .9;
 	display:inline-block;
@@ -39,7 +43,6 @@ dot: rgb(77,183,252)*/
 	padding-bottom: 0px;
 	margin-bottom: -20px;
 }
-
 
 .debug{
 	background-color:red;
@@ -70,7 +73,6 @@ dot: rgb(77,183,252)*/
 	margin-right:10px;
 }
 
-
 .horizontal-rule-nav{
 	width:100%;
 	display:inline-block;
@@ -83,15 +85,32 @@ dot: rgb(77,183,252)*/
 		BODY
 ********************/
 
-.section{
+.section-gradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dff9+1,7db9e8+100 */
+	background: #b3dff9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b3dff9 1%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #b3dff9 1%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #b3dff9 1%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dff9', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width:100%;
+	-webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
+	box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
+
+}
+
+.section-white{
+	padding:3.7rem 0 3.7rem 0;
 }
 
 .horizontal-rule{
-	width:90%;
+	width:100%;
 	display:inline-block;
 	height:5px;
 	background-color:rgb(77,183,252);
-	margin-left:5%;
+	/*margin-left:5%;*/
 	margin-top:25px;
 	margin-bottom:25px;
 }
@@ -99,15 +118,15 @@ dot: rgb(77,183,252)*/
 .project-title{
 	color:#424242;
 	text-align: center;
-	font-size: 4em;
-	padding-top:50px;
+	font-size: 4em;/*
+	padding-top:50px;*/
 }
 
 .project-title-small{
 	color:#424242;
 	text-align: center;
-	font-size: 2em;
-	padding-top:25px;
+	font-size: 2em;/*
+	padding-top:25px;*/
 }
 
 .img-circle{
@@ -126,20 +145,40 @@ dot: rgb(77,183,252)*/
 	border-radius:40px;
 	border-color:#FFF;
 	border-width:.35em;
+	margin-top:3em;
 }
-
 
 .overview{
 	margin-top:3em ;
 	margin-bottom:10px;
-	border: 5px solid rgb(77,183,252);
-	border-radius:40px;
 	display: inline-block;
-	padding:20px 35px;
 }
 
+.description-text{
+	color:white;
+	padding:10px 20px 2px 20px;
+	display:inline-block;
+	margin-top:15%;
+	border-left: 5px solid #FFF;
+	margin-bottom:3em;
+}
 
+.intro-text h4{
+	font-size: 1.4em;
+}
 
+.section-3{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.section-3-list{
+	margin-top: -20px;
+}
+
+.section-3-list-el{
+	color:#424242;
+}
 
 
 /********************
