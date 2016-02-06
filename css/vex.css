@@ -28,8 +28,3 @@ h4 > a{
 h4 > a:hover{
 	color:gray;
 }
-
-.img-circle{
-	border-radius:45%;
-	padding: 20px;
-}
