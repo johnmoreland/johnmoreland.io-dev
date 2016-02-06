@@ -254,7 +254,7 @@ a:active{
 }
 
 .portfolio-img:hover{
-	transform:translateY(-.2em);
+	transform:scale(1.02);
 	/*border-radius:20%;*/
 }
 
