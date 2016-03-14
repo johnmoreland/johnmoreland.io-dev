@@ -230,7 +230,7 @@ a:active{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffc4aa',GradientType=0 ); /* IE6-9 */
 	
 	padding-top:75px;
-	padding- bottom:50px;
+	padding-bottom:50px;
 
 	-webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
 	-moz-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
