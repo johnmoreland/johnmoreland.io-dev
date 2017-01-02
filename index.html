@@ -23,7 +23,7 @@
 
 			<!-- NAME -->
 			<div id="name" class="column">
-				<h4> <strong>john moreland</strong></h4>
+				<h4> <strong>John Moreland</strong></h4>
 			</div>
 
 
@@ -43,10 +43,10 @@
 			<!-- NAVIGATION -->
 			<div id="nav" class="column">
 				<ul class=" menu vertical small-centered text-center navlist">
-					<li class="current"><a href='#' >	<h5 id="navtext">projects</h5></a></li>
-					<li class=""><a href=''>					<h5 id="navtext">experience</h5></a></li>
-					<li class=""><a href='resume.pdf'><h5 id="navtext">resume</h5></a></li>
-					<li class=""><a href=''>					<h5 id="navtext">art</h5></a></li>
+					<li class="current"><a href='' >	<h4 id="navtext">projects</h4></a></li>
+					<li class=""><a href=''>					<h4 id="navtext">experience</h4></a></li>
+					<li class=""><a target="_blank" href='resume.pdf'><h4 id="navtext">resume</h4></a></li>
+					<li class=""><a href=''>					<h4 id="navtext">art</h4></a></li>
 				</ul>
 			</div>
 
@@ -59,32 +59,154 @@
 	</div> <!-- END of LEFT BAR-->
 
 	<!-- CONTENT -->
-	<div id="content" class="column small-12 medium-9" >
-		<div class="row small-up-2 medium-up-4">
+	<div id="content" class="column small-12 large-9" >
 
+		<!-- TITLE -->
+		<div class="title row small-up-1">
+			<div class="column text-center">
+				<h3> PROJECTS </h3>
+			</div>
+		</div>
 
-			<!-- PLAY PROJECT -->
-			<div class="column">
-				<a data-open="playprojectmodal">
+		<div class="row small-up-2 medium-up-4" data-equalizer data-equalize-by-row="true">
+
+			<!-- EGG DECORATOR -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="eggmodal">
 					<div class="card">
-				  <img src="./img/portfolio/thumbnails/playproject.png">
-				  <div class="card-section">
-				    <h5 class="text-center project-title">play project</h5>
-				  </div>
+						<img src="./img/projects/thumbnails/vex.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">cnc egg decorator</h5>
+							<!-- <span class="label secondary">mechanical design</span> -->
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="eggmodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
-			</a>
 			</div>
 
-			<div class="large reveal" id="playprojectmodal" data-reveal>
-				<!-- <button class="close-button" data-close aria-label="Close modal" type="button">
-				  <span aria-hidden="true">&times;</span>
-				</button> -->
-			  <h1>Awesome. I Have It.</h1>
-			  <p class="lead">Your couch. It is mine.</p>
-			  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-			  <button class="close-button" data-close aria-label="Close modal" type="button">
-			    <span aria-hidden="true">&times;</span>
-			  </button>
+			<!-- BOATS BOATS BOATS -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="kayakmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/vex.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">folding kayaks</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="kayakmodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- PLAY PROJECT -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="playprojectmodal">
+					<div class="card">
+					  <img src="./img/projects/thumbnails/playproject.png">
+					  <div class="card-section">
+					    <h5 class="text-center project-title">play project</h5>
+					  </div>
+					</div>
+				</a>
+				<div class="large reveal" id="playprojectmodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- DOT -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="dotmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/dot.PNG">
+						<div class="card-section">
+							<h5 class="text-center project-title">volcano robot</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="dotmodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- PUSH HERE -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="pushheremodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/vex.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">push here!</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="pushheremodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- VEX -->
+			<div class="column end" data-equalizer-watch>
+				<a data-open="vexmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/vex.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">competitive robots</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="vexmodal" data-reveal>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h1>Awesome. I Have It.</h1>
+					<p class="lead">Your couch. It is mine.</p>
+					<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
 			</div>
 
 

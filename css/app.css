@@ -59,6 +59,7 @@
 }
 
 #navtext{
+	font-variant: small-caps;
 	list-style-type:none;
 }
 
@@ -72,7 +73,7 @@
 	color:grey;
 }
 
-.current a{
+.current{
 	text-decoration: underline;;
 }
 
@@ -87,8 +88,13 @@
 	padding-top: 5vh;
 }
 
+.title{
+	padding-bottom: 20px;
+}
+
 .card{
 	/*border: 1px solid #414141;*/
+	margin-bottom:25px;
 	-webkit-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
 	-moz-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
 	box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
@@ -106,4 +112,5 @@
 	padding-top:5px;
 	padding-bottom: 5px;
 	color:#414141;
+	font-variant: small-caps;
 }
