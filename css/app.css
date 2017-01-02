@@ -17,7 +17,7 @@
 			LEFT BAR
 ********************/
 #leftbar{
-	/*height:100vh;*/
+	height:100vh;
 	/*position: fixed;*/
 	border-right: #414141 1px dotted;
 	border-bottom: #414141 1px dotted;
@@ -92,10 +92,14 @@
 	-webkit-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
 	-moz-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
 	box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
+	transition:ease-in-out .1s;
 }
 
 .card:hover{
 
+	-webkit-box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
+	-moz-box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
+	box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
 }
 
 .project-title{
