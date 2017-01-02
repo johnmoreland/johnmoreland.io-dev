@@ -12,26 +12,34 @@
 	background-color:red;
 }
 
-/*Down pointing*/
-.triangle-down {
-	width: 0;
-	height: 0;
-	border-left: .5em solid transparent;
-	border-right: .5em solid transparent;
-	border-top: .75em solid rgb(233, 141, 112);
-	border-bottom:0;
-	float:left;
-	margin-left: -1em;
-	/*margin-top:.25em;*/
-	margin-top: -.6em;
-
-	transform:rotate(-90deg);
-	transition: ease-in-out .5s;
-}
 
 /********************
 			LEFT BAR
 ********************/
+#leftbar{
+	/*height:100vh;*/
+	/*position: fixed;*/
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc4aa+0,ffb06b+100&1+0,0.83+100 */
+	background: -moz-linear-gradient(top,  rgba(255,196,170,1) 0%, rgba(255,176,107,0.83) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,196,170,1) 0%,rgba(255,176,107,0.83) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,196,170,1) 0%,rgba(255,176,107,0.83) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc4aa', endColorstr='#d4ffb06b',GradientType=0 ); /* IE6-9 */
+}
+
+#leftbar-content{
+	text-align: center;
+}
+
+#name{
+	margin-top: 5vh;
+	color:white;
+}
+
+#social{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 
 .social-ico{
 	width:5%;
@@ -43,4 +51,49 @@
 
 .social-ico:hover{
 	transform:scale(1.05,1.05);
+}
+
+.resume-button{
+	color:white;
+	border: 5px white solid;
+	border-radius: 30px;
+	display:inline-block;
+	padding: 5px 25px 0px 25px;
+}
+.resume-button:hover{
+	color:grey;
+	border-color:grey;
+}
+
+#nav{
+	margin-top:10vh;
+}
+
+.navlist{
+	display:inline-block;
+}
+
+#navtext{
+	list-style-type:none;
+}
+
+a{
+	color:white;
+}
+
+#navtext a:hover{
+	color:grey;
+}
+
+.current a{
+	color:grey;
+}
+
+/********************
+			CONTENT
+********************/
+
+#content{
+	background:blue;
+	min-height:100vh;
 }

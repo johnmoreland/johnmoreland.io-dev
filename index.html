@@ -16,15 +16,61 @@
 
 <body>
 
-<section id="wrapper row">
+<section id="wrapper row" data-equalizer data-equalizer-mq="large-up">
 	<!-- LEFT BAR -->
-	<div id="leftbar" class="column small-12 medium-3" style="background-color:red; height:100vh;">
+	<div id="leftbar" class="column small-12 large-3 text-center" data-equalizer-watch>
+		<div id="leftbar-content" class="row small-up-1 text-center">
+
+			<!-- NAME -->
+			<div id="name" class="column">
+				<h2> john moreland</h2>
+			</div>
+
+			<!-- SOCIAL ICONS -->
+			<div id="social" class="column">
+				<a target="_blank" href="http://www.linkedin.com/in/jmore" >
+					<img src="./img/social/linkedin.svg" class="social-ico">
+				</a>
+				<a target="_blank" href="mailto:jmoreland@outlook.com" >
+					<img src="./img/social/mail.svg" class="social-ico">
+				</a>
+				<a target="_blank" href="https://twitter.com/john_moreland" >
+					<img src="./img/social/twitter.svg" class="social-ico">
+				</a>
+			</div>
+
+			<!-- RESUME -->
+			<div id="resume" class="column">
+				<a target="_blank" href='resume.pdf'>
+					<div class="resume-button text-center">
+						<h3>resume</h3>
+					</div>
+				</a>
+			</div>
+
+			<!-- NAVIGATION -->
+			<div id="nav" class="column">
+				<ul class="small-horizontal medium-vertical menu small-centered navlist">
+					<!-- <h2 id="navtext"> -->
+					<li class="current"><a href='#' >projects</a></li>
+					<li class=""><a href=''>experience</a></li>
+					<li class=""><a href=''>art</a></li>
+					<!-- </h2> -->
+				</ul>
+			</div>
 
 
+
+			<!-- PHOTO -->
+			<div class="column small-hidden">
+			</div>
+
+
+		</div>
 	</div> <!-- END of LEFT BAR-->
 
 	<!-- CONTENT -->
-	<div id="content" class="column small-12 medium-9" style="background-color:blue; height:100vh;">
+	<div id="content" class="column small-12 medium-9" data-equalizer-watch>
 
 	</div><!-- END of CONTENT-->
 
