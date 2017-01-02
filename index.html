@@ -16,14 +16,24 @@
 
 <body>
 
-<section id="wrapper row" data-equalizer data-equalizer-mq="large-up">
-	<!-- LEFT BAR -->
+<section id="wrapper row" data-equalizer data-equalize-by-row="true">
+ 	<!-- LEFT BAR -->
 	<div id="leftbar" class="column small-12 large-3 text-center" data-equalizer-watch>
 		<div id="leftbar-content" class="row small-up-1 text-center">
 
 			<!-- NAME -->
 			<div id="name" class="column">
 				<h2> john moreland</h2>
+			</div>
+
+			<!-- NAVIGATION -->
+			<div id="nav" class="column">
+				<ul class="small-horizontal large-vertical menu small-centered navlist">
+						<li class="current"><a href='#' ><h3 id="navtext">projects</h3></a></li>
+					<li class=""><a href=''><h3 id="navtext">experience</h3></a></li>
+					<li class=""><a href=''><h3 id="navtext">art</h3></a></li>
+
+				</ul>
 			</div>
 
 			<!-- SOCIAL ICONS -->
@@ -48,16 +58,7 @@
 				</a>
 			</div>
 
-			<!-- NAVIGATION -->
-			<div id="nav" class="column">
-				<ul class="small-horizontal medium-vertical menu small-centered navlist">
-					<!-- <h2 id="navtext"> -->
-					<li class="current"><a href='#' >projects</a></li>
-					<li class=""><a href=''>experience</a></li>
-					<li class=""><a href=''>art</a></li>
-					<!-- </h2> -->
-				</ul>
-			</div>
+
 
 
 
@@ -72,14 +73,35 @@
 	<!-- CONTENT -->
 	<div id="content" class="column small-12 medium-9" data-equalizer-watch>
 
+		<div class="button-group expanded">
+		  <a class="button secondary hollow" data-close="prj" data-open="exp art">projects</a>
+		  <a class="button secondary hollow">experience</a>
+		  <a class="button secondary hollow">art</a>
+		</div>
+
+<div class="row small-up-1">
+	<div class="column">
+		<div id="prj" class="debug" data-toggler="hide">
+			<h3>  yoo </h3>
+		</div>
+	</div>
+
+	<div class="column">
+		<div id="exp" class="debug" data-toggler="hide">
+			<h3>  two </h3>
+		</div>
+	</div>
+
+	<div class="column">
+		<div id="art" class="debug" data-toggler="hide">
+			<h3>  threse </h3>
+		</div>
+	</div>
+</div>
+
+
+
 	</div><!-- END of CONTENT-->
-
-
-
-
-
-
-
 </section>
 
     <script src="js/vendor/jquery.min.js"></script>

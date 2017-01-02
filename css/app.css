@@ -66,7 +66,7 @@
 }
 
 #nav{
-	margin-top:10vh;
+	/*margin-top:10vh;*/
 }
 
 .navlist{
@@ -77,8 +77,9 @@
 	list-style-type:none;
 }
 
-a{
+.menu a{
 	color:white;
+	padding:0;
 }
 
 #navtext a:hover{
@@ -94,6 +95,6 @@ a{
 ********************/
 
 #content{
-	background:blue;
+	/*background:blue;*/
 	min-height:100vh;
 }
