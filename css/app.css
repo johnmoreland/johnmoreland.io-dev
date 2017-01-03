@@ -114,3 +114,9 @@
 	color:#414141;
 	font-variant: small-caps;
 }
+
+.project-text{
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
