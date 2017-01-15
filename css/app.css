@@ -12,6 +12,13 @@
 	background-color:red;
 }
 
+.reveal{
+	border-radius:5px;
+}
+
+.card{
+	border-radius:5px;
+}
 
 /********************
 			LEFT BAR
