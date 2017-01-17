@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	 
+
 	<!-- If IE use the latest rendering engine -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	 
+
 	<!-- Set the page to the width of the device and set the zoom level -->
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
     <link rel="stylesheet" href="css/foundation.css" />
@@ -16,306 +16,428 @@
 
 <body>
 
-	<!-- NAVBAR -->
-	<nav class="top-bar"> 
-		<div class="wrapper row small-up-1 medium-up-2 large-up-2">
-		  <div class="column small-centered text-center medium-text-left">
-		      <h3><strong>john</strong> moreland</h3>
-		  </div>
-		  <div class="column small-centered text-center medium-text-right">
-			    <ul class="menu nav-right">
-			      <li><a href="#about" >about</a></li>
-			      <li><a href="#portfolio">portfolio</a></li>
-			      <li><a href="#skills">skills</a></li>
-			    </ul>
-		  </div>
-		  <div class="horizontal-rule-nav"></div>
-		</div>
-	</nav> <!-- END of NAVBAR -->
+<section id="wrapper row">
+ 	<!-- LEFT BAR -->
+	<div id="leftbar" class="column small-12 large-3 text-center" >
+		<div id="leftbar-content" class="row small-up-1 text-center">
 
-	<!-- INTRO -->
-	<section id="intro">
-		<div class="wrapper intro-content row small-up-1">
+			<!-- NAME -->
+			<div id="name" class="column">
+				<h4> <strong>John Moreland</strong></h4>
+			</div>
+
+
+			<!-- SOCIAL ICONS -->
+			<div id="social" class="column">
+				<a target="_blank" href="http://www.linkedin.com/in/jmore" >
+					<img src="./img/social/linkedin.svg" class="social-ico">
+				</a>
+				<a target="_blank" href="mailto:jmoreland@outlook.com" >
+					<img src="./img/social/mail.svg" class="social-ico">
+				</a>
+				<a target="_blank" href="https://twitter.com/john_moreland" >
+					<img src="./img/social/twitter.svg" class="social-ico">
+				</a>
+			</div>
+
+			<!-- NAVIGATION -->
+			<div id="nav" class="column">
+				<ul class=" menu vertical small-centered text-center navlist">
+					<li class="current"><a href='' >	
+						<h4 id="navtext">projects</h4></a></li>
+					<li class=""><a href='experience.html'>			<h4 id="navtext">experience</h4></a></li>
+					<li class=""><a target="_blank" href='resume.pdf'><h4 id="navtext">resume</h4></a></li>
+					<li class=""><a href='art.html'>				<h4 id="navtext">art</h4></a></li>
+				</ul>
+			</div>
+
+			<!-- PHOTO -->
+			<div class="column small-hidden">
+			</div>
+
+
+		</div>
+	</div> <!-- END of LEFT BAR-->
+
+	<!-- CONTENT -->
+	<div id="content" class="column small-12 large-9" >
+
+		<!-- TITLE -->
+		<div class="title row small-up-1">
 			<div class="column text-center">
-				<img id="profile" src="./img/intro/Profile.png">
+				<h3> PROJECTS </h3>
 			</div>
-			<!--<div class="column hide-for-small-only show-for-medium-up text-center">-->
-			<!--	<div class="intro-text text-center hide-for-medium-only">-->
-			<!--		<h3>student | <b>engineer</b>-->
-			<!--		</br> obsessed with design</h3>-->
-			<!--	</div>-->
-			<!--	<div class="intro-text text-center show-for-medium-only">-->
-			<!--		<h4>student | <b>engineer</b>-->
-			<!--		</br> obsessed with design</h4>-->
-			<!--	</div>-->
-			<!--</div>-->
 		</div>
-	</section> <!-- END of INTRO -->
 
-	<!-- ABOUT -->
-	<section id="about">
-		<div class="wrapper">
-			<div class= "text-center">
-				<div class="text-center">
-					<div class="text-center section-header-on-white"><h3> about</h3>
+		<div class="row small-up-2 medium-up-4" data-equalizer data-equalize-by-row="true">
+
+			<!-- EGG DECORATOR -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="eggmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/eggs.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">cnc egg decorator</h5>
+							<!-- <span class="label secondary">mechanical design</span> -->
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row small-up-1 medium-up-2">
-				<!--EDUCATION-->
-				<div class="column text-left">
-					<h3 class="about-subhead-text">education</h3>
-					<div class="horizontal-rule"></div>
-						<a target="_blank" href='http://www.olin.edu'>
-							<div class="about-img-container">
-								<img class="about-img" src="./img/about/OlinCollege.png">
-							</div>
-						</a>
-				</div>
-				<!--EXPERIENCE-->
-				<div class="column text-left">
-					<h3 class="about-subhead-text">experience</h3>
-					<div class="horizontal-rule"></div>
-						<a target="_blank" href='http://www.boostedboards.com'>
-							<div class="about-img-container">
-								<img class="about-img" src="./img/about/boosted.png">
-							</div>
-						</a>
-						<a target="_blank" href='http://www.simplehuman.com'>
-							<div class="about-img-container">
-								<img class="about-img" src="./img/about/simplehuman.png">
-							</div>
-						</a>
-						<a target="_blank" href='http://www.rollingrobots.com'>
-							<div class="about-img-container">
-								<img class="about-img" src="./img/about/rollingrobots.png">
-							</div>
-						</a>
-				</div>
-			</div>
-		</div>
-	</section> <!-- END of ABOUT -->
+				</a>
+				<div class="large reveal" id="eggmodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">cnc egg decorator</h2>
+					<div class="row small-up-1 medium-up-2">
 
-	<!-- PORTFOLIO -->
-	<section id="portfolio">
-		<div class="wrapper">
-			<div class="text-center">
-				<div class= "text-center section-header-on-grad "><h3> portfolio</h3></div>
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">The goal of my Principles of Engineering class was to build a <em>non-trivial</em> electromechanical device within 8 weeks. My team decided to build a 3-axis, cylindrical CNC machine capable of drawing on eggs. As part of the mechanical team, I helped design the machine’s structural elements and subsequently fabricate them using rapid prototyping technologies. The software team made an awesome inkscape plugin that allowed us to draw arbitrary, user-drawn shapes on the eggs. We wrote more about the Egg Decorator and the process behind it on our <a href="http://poe.olin.edu/2016/Eggs">project website.</a></h5>
+						</div>
+
+						<!-- images -->
+						<div class="column">
+							<img src="./img/projects/eggs/hero2.jpg">
+						</div>
+
+						<div class="column show-for-medium">
+							
+							</br>
+							<img src="./img/projects/eggs/names.jpg">
+						</div>
+
+						<div class="column show-for-medium">
+							
+							</br>
+							<img src="./img/projects/eggs/back.jpg">
+						</div>
+
+					</div>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
 			</div>
-		</div>
-		<!--PORTFOLIO CONTENT-->
-		<div class="wrapper row small-up-1 medium-up-3">
+
+			<!-- BOATS BOATS BOATS -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="kayakmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/kayak.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">folding kayaks</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="kayakmodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">folding kayaks</h2>
+					<div class="row small-up-1 medium-up-2">
+
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">Can you build a kayak with $50? <strong>Yes.</strong>
+							</br>	
+								<a href="https://www.youtube.com/watch?v=caBSze3Im6c">our inspiration</a> </br></h5>
+							<h6>
+
+								Ingredients:
+							<ul>
+								<li>Corrugated Plastic</li>
+								<li>Duct Tape</li>
+								<li>Blue Tarp</li>
+								<li>PVC</li>
+								<li>Scrap wood for structure</li>
+								<li>You’ll need to find your own paddles</li>
+							</ul>
+							</h6>
+						</div>
+
+						<!-- images -->
+						<div class="column">
+							<img src="./img/projects/kayak/floatin.jpg">
+						</div>
+
+						<div class="column show-for-medium">
+							
+							</br>
+							<img src="./img/projects/kayak/collapsed.jpg">
+						</div>
+
+						<div class="column show-for-medium">
+							
+							</br>
+							<img src="./img/projects/kayak/expanded.jpg">
+						</div>
+
+					</div>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
 
 			<!-- PLAY PROJECT -->
-			<div class="column portfolio-content text-center">
-				<a href='playproject'>
-					<img class="portfolio-img" src="./img/portfolio/thumbnails/playproject.png">
+			<div class="column" data-equalizer-watch>
+				<a data-open="playprojectmodal">
+					<div class="card">
+					  <img src="./img/projects/thumbnails/playproject.png">
+					  <div class="card-section">
+					    <h5 class="text-center project-title">play project</h5>
+					  </div>
+					</div>
 				</a>
-				<h4 class="project-titles">play project</h4>
-			</div>
+				<div class="large reveal" id="playprojectmodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">play project</h2>
+					<div class="row small-up-1 medium-up-2">
 
-			<!-- dot -->
-			<div class="column portfolio-content text-center">
-				<a href='dot'>
-					<img class="portfolio-img" src="./img/portfolio/thumbnails/dot.PNG">
-				</a>
-				<h4 class="project-titles">dot</h4>
-			</div>
-
-			<!-- simplehuman -->
-<!-- 			<div class="column portfolio-content text-center">
-				<a href='simplehuman.html'>
-					<img class="portfolio-img" src="./img/portfolio/thumbnails/simplehuman.png">
-				</a>
-				<h4 class="project-titles">simplehuman</h4>
-			</div> -->
-			
-			<!-- vex -->
-			<div class="column portfolio-content text-center">
-				<a href='vex'>
-					<img class="portfolio-img" src="./img/portfolio/thumbnails/vex.png">
-				</a>
-				<h4 class="project-titles">vex</h4>
-			</div>
-		</div>
-	</section> <!-- END of PORTFOLIO -->
-
-	<!-- SKILLS -->
-	<section id="skills">
-		<div class="wrapper">
-			<div class="text-center">
-				<div class= "text-center section-header-on-white "><h3> skills</h3></div>
-			</div>
-
-
-			<div class="skills-content row hide-for-small-only medium-up-2 large-up-4">
-				<!--MANUFACTURING-->
-				<div class="column">
-					<div class="skills-subsection">
-						<h3 class="skills-subhead-text"> manufacturing 
-						</h3> 
-						<div class="horizontal-rule"></div>
-							<ul class="skill-names no-bullet">
-								<li><h5>laser cutting </h5></li>
-								<li><h5>3d printing </h5></li>
-								<li><h5>cnc routing </h5></li>
-								<li><h5>milling </h5></li>
-							</ul>
-					</div>
-				</div>
-
-				<!--CAD-->
-				<div class="column">
-					<div class="skills-subsection"> 
-						<h3 class="skills-subhead-text"> cad </h3> 
-						<div class="horizontal-rule"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>solidworks</h5></li>
-							<li><h5>autodesk inventor</h5></li>
-							<li><h5>fusion 360</h5></li>
-						</ul>
-					</div>
-				</div>
-
-				<!--code-->
-				<div class="column">
-					<div class="skills-subsection"> 
-						<h3 class="skills-subhead-text"> code </h3>
-						<div class="horizontal-rule"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>HTML </h5></li>
-							<li><h5>CSS </h5></li>
-							<li><h5>arduino </h5></li>
-							<li><h5>robotC </h5></li>
-						</ul>
-					</div>
-				</div>
-
-				<!--additional-->
-				<div class="column">
-					<div class="skills-subsection "> 
-						<h3 class="skills-subhead-text "> additional </h3>
-						<div class="horizontal-rule"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>adobe suite </h5></li>
-							<li><h5>soldering </h5></li>
-							<li><h5>circuitry</h5></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="skills-content row small-up-1 show-for-small-only">
-				<!--MANUFACTURING-->
-				<div class="column">
-					<div class="skills-subsection-small"> 
-
-						<h3 class="skills-subhead-text skills-subhead-text-small">manufacturing 
-						</h3> 
-						<div class="triangle-down show-for-small-only"></div>
-
-						<!-- <div class="horizontal-rule"></div> -->
-							<ul class="skill-names no-bullet">
-								<li><h5>laser cutting </h5></li>
-								<li><h5>3d printing </h5></li>
-								<li><h5>cnc routing </h5></li>
-								<li><h5>milling </h5></li>
-							</ul>
-					</div>
-				</div>
-
-				<!--CAD-->
-				<div class="column">
-					<div class="skills-subsection-small"> 
-						<h3 class="skills-subhead-text skills-subhead-text-small">cad </h3> 
-						<div class="triangle-down show-for-small-only"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>solidworks</h5></li>
-							<li><h5>autodesk inventor</h5></li>
-							<li><h5>fusion 360</h5></li>
-						</ul>
-					</div>
-				</div>
-
-				<!--code-->
-				<div class="column">
-					<div class="skills-subsection-small"> 
-						<h3 class="skills-subhead-text skills-subhead-text-small">code </h3>
-						<div class="triangle-down show-for-small-only"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>HTML </h5></li>
-							<li><h5>CSS </h5></li>
-							<li><h5>arduino </h5></li>
-							<li><h5>robotC </h5></li>
-						</ul>
-					</div>
-				</div>
-
-				<!--additional-->
-				<div class="column">
-					<div class="skills-subsection-small"> 
-						<h3 class="skills-subhead-text skills-subhead-text-small ">additional </h3>
-						<div class="triangle-down show-for-small-only"></div>
-						<ul class="skill-names no-bullet">
-							<li><h5>adobe suite </h5></li>
-							<li><h5>soldering </h5></li>
-							<li><h5>circuitry</h5></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<!-- RESUME -->
-			<div class="row small-up-1">
-				<div class="column text-center">
-					<a target="_blank" href='resume.pdf'>
-						<div class="resume-button text-center"> 
-							<h2 class="resume-text">resume</h2>
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">My team of 5 was tasked with creating a turtle-themed play experience for
+							fourth graders. After interviewing younger nephews and cousins, we learned
+							that our game should be both cooperative and competitive, while also
+							allowing the fourth graders to become turtles. After laughing at videos
+							of turtles getting stuck on their backs, my team decided to incorporate
+							that motion into our design.</h5>
 						</div>
-					</a>
+
+						<div class="column">
+							<h5 class="text-justify">We decided to construct turtle shell backpacks
+								out of triple wall cardboard, fabric, and packing peanuts. We then
+								brought in several classes of fourth graders to play test our game.
+								Overall, it was a great experience for everyone involved.</h5>
+							</div>
+
+						<!-- images -->
+						<div class="column">
+							<img src="./img/projects/playproject/kids.png">
+						</div>
+
+						<div class="column show-for-medium">
+							<img src="./img/projects/playproject/justin.png">
+						</div>
+					</div>
+
+					<br>
+
+					<!-- extra images -->
+					<div class="row small-up-2 medium-up-4 show-for-large">
+						<div class="column">
+							<img src="./img/projects/playproject/crouch.JPG">
+						</div>
+						<div class="column">
+							<img src="./img/projects/playproject/build.JPG">
+						</div>
+						<div class="column">
+							<img src="./img/projects/playproject/strap.JPG">
+						</div>
+						<div class="column">
+							<img src="./img/projects/playproject/base.JPG">
+						</div>
+					</div>
+
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- DOT -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="dotmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/dot.PNG">
+						<div class="card-section">
+							<h5 class="text-center project-title">volcano robot</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="dotmodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">volcano robot</h2>
+					<div class="row small-up-1 medium-up-2">
+
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">I spent my senior year of highschool creating
+								a volcano exploration robot with a team of eighteen other students.
+								We simulated an industry experience in a classroom environment by
+								establishing a corporate identity - dot, and competing for a contract.</h5>
+
+							<h5 class="text-justify">Our team was tasked with creating a machine
+								capable of boring into a volcano, collecting empirical data, and
+								launching a drone to safely relay information. As per industry standard,
+								 we meticulously documented our work, and held design reviews with
+								 engineers from Boeing, Raytheon, and Northrop Grumman, among others.
+							 </h5>
+						</div>
+
+						<div class="column text-center">
+						</br>
+							<h4 style="font-variant:small-caps">documentation</h4>
+							<h4 style="font-variant:small-caps"> <ul class="menu vertical">
+								<li><a href="https://drive.google.com/file/d/0B4v7HKjCG5EQeHhoVXNyUHJWUlE/view" target="_blank">systems performance specification</a></li>
+								<li><a href="https://drive.google.com/file/d/0B4v7HKjCG5EQUU1oS0tEdzFqeUE/view" target="_blank">proof of concept</a></li>
+								<li><a href="https://drive.google.com/file/d/0B4v7HKjCG5EQQnpyVW43S3ZKaWs/view" target="_blank">technical data package</a></li>
+							</ul></h4>
+						</br>
+							<h4 style="font-variant:small-caps">media</h4>
+							<h4 style="font-variant:small-caps"> <ul class="menu vertical">
+								<li><a href="http://www.usatoday.com/videos/news/nation/2015/03/24/22552989/" target="_blank">usa today video</a></li>
+								<li><a href="http://www.usatoday.com/story/news/2015/03/23/train-for-school-and-career/22400111/" target="_blank">usa today article</a></li>
+							</ul></h4>
+						</br>
+						</div>
+
+						<!-- images -->
+
+					<div class="row small-up-1 medium-up-2 large-up-4">
+						<div class="column show-for-medium">
+							<img src="./img/projects/dot/houston.png">
+						</div>
+						<div class="column show-for-medium">
+							<img src="./img/projects/dot/team.JPG">
+						</div>
+						<div class="column show-for-large">
+							<img src="./img/projects/dot/eagle.JPG">
+						</div>
+						<div class="column show-for-large">
+							<img src="./img/projects/dot/mill.JPG">
+						</div>
+					</div>
+
+				</div>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- PUSH HERE -->
+			<div class="column" data-equalizer-watch>
+				<a data-open="pushheremodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/pushhere.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">push here!</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="pushheremodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">push here</h2>
+					<div class="row small-up-1 medium-up-2">
+
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">Don’t get me wrong - I love Olin, but for an engineering school there are a few aspects that are pretty poorly engineered. One of the most glaring issues is Olin’s doors. The worst offense is in the dining hall, where there is a pair of doors that open in opposite directions. These unintuitive double doors have always frustrated me. One day I was able to convince a team of students that labeleling the doors would "add value" to the Olin community. We did a test run with post-it notes indicating which side of the door to push. In a follow up survey, over 2/3rds of students admitted the post-its were useful. So, I decided to take it a step further and vinyl cut enough stickers to label all of Olin’s annoying doors.</h5>
+							</br>
+						</div>
+
+						<!-- images -->
+						<div class="column">
+							<img src="./img/projects/pushhere/ondoor.png">
+							</br>
+						</div>
+
+						<div class="column show-for-medium">
+							<img src="./img/projects/pushhere/doors.jpg">
+						</div>
+
+						<div class="column show-for-medium">
+							<img src="./img/projects/pushhere/stickers.jpg">
+						</div>
+
+					</div>
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- VEX -->
+			<div class="column end" data-equalizer-watch>
+				<a data-open="vexmodal">
+					<div class="card">
+						<img src="./img/projects/thumbnails/vex.png">
+						<div class="card-section">
+							<h5 class="text-center project-title">competitive robots</h5>
+						</div>
+					</div>
+				</a>
+				<div class="large reveal" id="vexmodal" data-reveal>
+					<h2 class="text-center" style="font-variant:small-caps">competitive robots</h2>
+					<div class="row small-up-1 medium-up-2">
+
+						<!-- description -->
+						<div class="column">
+							<h5 class="text-justify">Starting in 7th grade, I participated in an annual
+								robotics competition. VEX robotics was my first experience with hands-on
+								engineering. I often credit VEX as the reason I decided to pursue a career in
+								engineering.</h5>
+						</div>
+
+						<div class="column">
+							<h5 class="text-justify">In my last year of competition, my team was fortunate
+								 enough to establish a partnership with <a href="http://rollingrobots.com" target="_blank">Rolling Robots</a>, a local
+								 robotics workshop. We began mentoring their middle school teams as we transitioned
+								 to more challenging robotics projects. It has been amazing to witness the program grow and
+								 succeed over the past few. Rolling Robots now has 8 VEX teams and has won
+								 tens of awards, including the World's Championship Excellence award.</h5>
+							</div>
+
+						<!-- images -->
+						<div class="column show-for-medium">
+							<img src="./img/projects/vex/everyone.png">
+						</div>						
+						<div class="column">
+							<img src="./img/projects/vex/robot.png">
+						</div>
+					</div>
+
+					<br>
+
+					<!-- extra images -->
+					<div class="row small-up-2 medium-up-6 show-for-large">
+						<div class="column">
+							<img src="./img/projects/vex/side.png">
+						</div>
+						<div class="column">
+							<img src="./img/projects/vex/sideup.png">
+						</div>
+						<div class="column">
+							<img src="./img/projects/vex/frontup.png">
+						</div>
+						<div class="column">
+							<img src="./img/projects/vex/frontdown.png">
+						</div>
+						<div class="column">
+							<img src="./img/projects/vex/back.png">
+						</div>
+						<div class="column">
+							<img src="./img/projects/vex/iq.PNG">
+						</div>
+
+					</div>
+
+					<button class="close-button" data-close aria-label="Close modal" type="button">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
 			</div>
 
 
+
 		</div>
-	</section> <!-- END of SKILLS -->
-
-	<!-- FOOTER -->
-	<footer class="footer">
-		<div class="wrapper row">
-			<div class="column text-center">
-				<div>
-					<a target="_blank" href="http://www.linkedin.com/in/jmore" >
-						<img src="./img/social/linkedin.svg" class="social-ico">
-					</a>
-					<a target="_blank" href="mailto:jmoreland@outlook.com" >
-						<img src="./img/social/mail.svg" class="social-ico">
-					</a>
-					<a target="_blank" href="https://twitter.com/john_moreland" >
-						<img src="./img/social/twitter.svg" class="social-ico">
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-	</footer> <!-- END of FOOTER -->
-
+	</div><!-- END of CONTENT-->
+</section>
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
 
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-72959606-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		  ga('create', 'UA-72959606-1', 'auto');
+		  ga('send', 'pageview');
+		</script> -->
 </body>
 </html>

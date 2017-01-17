@@ -8,372 +8,45 @@
 	font-weight:200;
 }
 
-.section-header-on-white{
-	opacity: .9;
-	display:inline-block;
-	text-align:center;
-/*	border-style:solid;
-	border-color:#ff8351;
-	border-width:2px;*/
-	padding:12px 30px;
-	padding-bottom:5px;
-	margin-bottom: 1em;
-	border-radius:40px;
-	font-style: bold;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd8b2+0,ffded1+100 */
-	background: #ffd8b2; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffd8b2 0%, #ffded1 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ffd8b2 0%,#ffded1 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ffd8b2 0%,#ffded1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8b2', endColorstr='#ffded1',GradientType=0 ); /* IE6-9 */
-
-	color:#FFF;
-	/*color:#fff;*/
-}
-
-.section-header-on-grad{
-	opacity: .9;
-	/*text-align:center;*/
-	/*margin:auto;*/
-	display:inline-block;
-	text-align:center;
-	margin-bottom:15px;
-	border-style:solid;
-	border-color:#fff;
-	border-width:5px;
-	padding:7px 20px;
-	padding-bottom:0px;
-	margin-bottom: 50px;
-	border-radius:40px;
-	font-style: bold;
-	/*color:#DB4C2C;*/
-	color:#fff;
-}
-
 .debug{
 	background-color:red;
 }
 
+.reveal{
+	border-radius:5px;
+}
 
-/*Down pointing*/
-.triangle-down {
-	width: 0;
-	height: 0;
-	border-left: .5em solid transparent;
-	border-right: .5em solid transparent;
-	border-top: .75em solid rgb(233, 141, 112);
-	border-bottom:0;
-	float:left;
-	margin-left: -1em;
-	/*margin-top:.25em;*/
-	margin-top: -.6em;
-
-	transform:rotate(-90deg);
-	transition: ease-in-out .5s;
+.card{
+	/*border-radius:5px;*/
 }
 
 /********************
-		NAVBAR
+			LEFT BAR
 ********************/
-.top-bar{
-	background:transparent;
-	color:#FFF;
+#leftbar{
+	/*height:100vh;*/
+	/*position: fixed;*/
+	border-top: #414141 1px dotted;
+	min-height: 50vh;
 }
 
-.top-bar ul, .top-bar a{
-	background:transparent;
-	color:#FFF;
-}
-
-*{
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth; // Added in from answer from Felix
-    overflow-x: scroll;
-}
-
-a:hover{
-	color:#bdc3c7;
-}
-
-a:active{
-	color:#bdc3c7;
-}
-
-.top-bar h3{
-	padding-top: 15px;
-	font-weight:lighter;
-	margin-bottom: -10px;
-}
-
-.nav-right{
-	padding-top:20px;
-	font-size: 1.2em;
-	display:inline-block;
-}
-
-.horizontal-rule-nav{
-	width:100%;
-	display:inline-block;
-	height:5px;
-	background-color:#FFF;
-}
-
-
-/********************
-		INTRO
-********************/
-
-#intro{
-	color:#FFF;
-	font-weight:lighter;
-	height:auto;
-	min-height: 250px;
-	background:url("../img/intro/LakeWabanSunsetHD.png");
-	background-repeat: no-repeat;
-	background-position: bottom;
-	margin-top:-140px;
-	padding-top:125px;
-	padding-bottom: 70px;
-}
-
-#pano{
-	position:absolute;
-	z-index: -1;
-	width:100%;
-	height:auto;
-	min-height: 250px;
-}
-
-.intro-content{
-	padding-top:2em;
-}
-
-#profile{
-	height:66v;
-	min-height:200px;
-	max-height:400px;
-	width:auto;
-	min-width:200px;
-	border-style:solid;
-	border-radius:50%;
-	border-color:#FFF;
-	border-width:.35em;
-}
-
-.intro-text{
-	padding:10px 20px 2px 20px;
-	border-style:solid;
-	border-radius:25px;
-	border-color:#FFF;
-	border-width:5px;
-	display:inline-block;
-	margin-top:20%;
-}
-
-.intro-text h4{
-	font-size: 1.4em;
-}
-
-
-/********************
-		ABOUT
-********************/
-
-#about{
-	width:100%;
-	padding-top:65px;
-	padding-bottom:75px;
-}
-
-.about-subhead-text{
-	padding-top:1em;
-	margin-bottom: -5px;
-	color:#424242;
-}
-
-.horizontal-rule{
-	width:80%;
-	display:inline-block;
-	height:5px;
-	/*background-color:#ff8351*/;
-	margin-top: -20%;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd8b2+0,ffded1+100 */
-	background: #ffd8b2; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffd8b2 0%, #ffded1 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ffd8b2 0%,#ffded1 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ffd8b2 0%,#ffded1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8b2', endColorstr='#ffded1',GradientType=0 ); /* IE6-9 */
-}
-
-.about-img-container{
-	width:90%;
-	padding-top:5px;
-	padding-bottom:5px;
-}
-
-.about-img{
-	border-radius:0;
-	width:90%;
-}
-
-/********************
-		PORTFOLIO
-********************/
-
-#portfolio{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ffc4aa+100 */
-	background: #ffb76b; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb76b 0%, #ffc4aa 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffc4aa 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #ffb76b 0%,#ffc4aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffc4aa',GradientType=0 ); /* IE6-9 */
-	
-	padding-top:75px;
-	padding-bottom:50px;
-
-	-webkit-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
-	-moz-box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
-	box-shadow: inset 0px 3px 7px 0px rgba(0,0,0,0.41);
-}
-
-.portfolio-content{
-	/*overflow: hidden;*/
-	position: relative;
-}
-
-.portfolio-img{
-	width:90%;
-	height:auto;
-	border-radius:50%;
-	border-style:solid;
-	border-color:#FFF;
-	border-width:3px;
-
-	transition: ease-in-out, .1s;
-}
-
-.portfolio-img:hover{
-	transform:scale(1.02);
-	/*border-radius:20%;*/
-}
-
-.project-titles{
-	padding-top:10px;
-	color:#FFF;
-	margin-bottom: 2em;
-}
-
-/********************
-		SKILLS
-********************/
-#skills{
-	padding-top:75px;
-	padding-bottom:75px;
-
-	-webkit-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
-	-moz-box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
-	box-shadow:  0px -2px 8px 0px rgba(0,0,0,0.41);
-}
-
-.skills-content{
-	padding-top:25px;
-	text-align:left;
-}
-
-.skills-subsection{
-	padding-top:5px;
-	padding-left:20px;
-	margin-bottom:20px;
-	margin-right:10%;
-}
-
-
-.skills-subsection-small{
-	padding-top:5px;
-	padding-left:20px;
-	margin-bottom:20px;
-	margin-right:10%;
-	max-width:90%;
-	margin-top:20px;
-	max-height:2.6em;
-
-	border-bottom: solid rgb(233, 141, 112) 3px;
-	overflow:hidden;
-
-	transition: max-height ease-in-out .75s;
-}
-
-.skills-subsection-small:hover{
-	max-height:500px;
-}
-
-.skills-subsection-small:hover > .triangle-down{
-	transform:rotate(0deg);
-}
-	
-
-
-.skills-subhead-text{
-	margin-bottom:-10px;
-	color:#424242;
-	font-weight: bold;
-	font-size: 1.7rem;
-	text-align: left;
-	margin-left:.5em;
-}
-
-.skills-subhead-text-small{
-	font-size:1.4em;
-}
-
-.skill-names{
-	margin:25px auto;
-	margin-left:1em;
-}
-
-.resume-button{
-	margin-top:100px;
-	color:#424242;
-	/*color: rgb(233, 141, 112);*/
-	border-color:#424242;
-	border-width:5px;
-	border-style: solid;
+#leftbar-content{
 	text-align: center;
-
-	opacity: .9;
-	display:inline-block;
-	padding:6px 20px 0px 20px;
-	margin-bottom: 10px;
-	border-radius:35px;
-	font-weight: bold;
-
-	transition:ease-in-out .1s;
 }
 
-.resume-text{
-	font-weight: bold;
+#name{
+	margin-top: 5vh;
+	color:#414141;
 }
 
-.resume-button:hover{
-	color:rgb(233, 141, 112);
-	border-color: rgb(233, 141, 112);
-}
-
-
-/********************
-		FOOTER
-********************/
-
-.footer{
-	background-color: rgb(233, 141, 112);
-	padding-top: 30px;
-	padding-bottom: 30px;
+#social{
+	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .social-ico{
 	width:5%;
-	min-width:75px;
+	min-width:65px;
 	height:auto;
 	padding-left:10px;
 	padding-right:10px;
@@ -381,4 +54,77 @@ a:active{
 
 .social-ico:hover{
 	transform:scale(1.05,1.05);
+}
+
+#nav{
+	/*margin-top:10vh;*/
+}
+
+.navlist{
+	display:inline-block;
+	max-width: 100%;
+}
+
+#navtext{
+	font-variant: small-caps;
+	list-style-type:none;
+}
+
+
+.menu > li:not(.menu-text) > a{
+	color:#777;
+	padding:0;
+}
+
+#navtext a:hover{
+	color:grey;
+}
+
+.current{
+	text-decoration: underline;;
+}
+
+/********************
+			CONTENT
+********************/
+
+#content{
+	/*background:blue;*/
+	min-height:100vh;
+	padding-top: 5vh;
+	border: #414141 1px dotted;
+	border-bottom:none;
+}
+
+.title{
+	padding-bottom: 20px;
+}
+
+.card{
+	/*border: 1px solid #414141;*/
+	margin-bottom:25px;
+	-webkit-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 4px 12px 1px rgba(0,0,0,0.24);
+	transition:ease-in-out .1s;
+}
+
+.card:hover{
+
+	-webkit-box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
+	-moz-box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
+	box-shadow: 0px 4px 12px 1px rgba(23,121,186,0.52);
+}
+
+.project-title{
+	padding-top:5px;
+	padding-bottom: 5px;
+	color:#414141;
+	font-variant: small-caps;
+}
+
+.project-text{
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
 }
